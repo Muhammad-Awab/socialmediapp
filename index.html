@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.png" type="image/png" sizes="16x16" />
+    <title>Social media website using html,css,js - Octapia</title>
+    <!-- Styles  -->
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- Styles End  -->
+  </head>
+  <body>
+    <!-- Header Section -->
+
+    <header class="header" id="header">
+      <div class="row">
+        <aside class="col left">
+          <a href="./" class="logo">
+            <img src="./favicon.png" alt="Logo" class="img" />
+            ConnecFriend
+          </a>
+        </aside>
+        <aside class="col center">
+          <aside class="col right">
+            <form class="searchForm">
+              <label for="searchBox">
+                <i class="fas fa-search"></i>
+              </label>
+              <input type="search" placeholder="Search here..." id="searchBox" />
+            </form>
+            
+          </aside>
+        </aside>
+        <aside class="col right">
+          
+          <div class="profile">
+            <img src="./images/awab.jfif" alt="profile-pic" class="img" />
+            <i
+              class="fas fa-ellipsis-h icon"
+              title="Profile Settings"
+              id="settingsMenuIcon"
+            ></i>
+          </div>
+        </aside>
+        <!-- /.col.right -->
+
+        <nav class="navSetting">
+          <a href="./#" class="block">
+            <img
+              src="./images/awab.jfif"
+              alt="profile-pic"
+              class="icon"
+            />
+            <div class="right">
+              <aside>
+                <h4 class="title">Sakil Jomadder</h4>
+                <span class="help">see your profile</span>
+              </aside>
+            </div>
+          </a>
+
+          <!-- /.block  user -->
+
+          <a href="./#" class="block">
+            <i class="fas fa-star icon"></i>
+            <div class="right">
+              <aside>
+                <h4 class="title">give feedback</h4>
+                <span class="help">help us to improve our app</span>
+              </aside>
+            </div>
+          </a>
+          <!-- /.block  feedback-->
+
+          <div class="options">
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-cog icon"></i>
+                <h4 class="title">Settings & privacy</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <!-- /.option  -->
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-question icon"></i>
+                <h4 class="title">help & support</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <!-- /.option  -->
+
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-tv icon"></i>
+                <h4 class="title">display & accessibility</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <!-- /.option  -->
+
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-moon icon"></i>
+                <h4 class="title">dark mode</h4>
+              </div>
+              <div class="right">
+                <aside class="themeBtn">
+                  <span class="circle dark"></span>
+                </aside>
+              </div>
+            </a>
+            <!-- /.option  -->
+
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-sign-out-alt icon"></i>
+                <h4 class="title">logout</h4>
+              </div>
+            </a>
+            <!-- /.option  -->
+          </div>
+         
+      </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- IconNav Section -->
+    <section class="iconNav" id="iconNav">
+      <nav class="navContainer left">
+        <a href="./#" class="link"><i class="icon fas fa-user"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-home"></i> </a>
+        <a href="./#" class="link"><i class="fab fa-deezer"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-user-friends"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-pager"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-gamepad"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-video"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-heart"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-calendar-alt"></i> </a>
+        <a href="./#" class="link"
+          ><i class="icon fab fa-facebook-messenger"></i
+        ></a>
+      </nav>
+    </section>
+    <!-- IconNav Section End -->
+
+    <!-- Left Sidebar Section -->
+    <section class="leftSidebar" id="leftSidebar">
+      <div class="row">
+        <a href="./#profile" class="profile">
+          <img src="./images/awab.jfif" alt="member-1" class="img" />
+          <span class="name">Muhammad-Awab</span>
+        </a>
+
+        <nav class="navLinks">
+          <a href="./#videos" class="link">
+            <i class="fab fa-deezer icon"></i>
+            <span class="name">Most recent</span>
+          </a>
+
+          <a href="./#videos" class="link">
+            <i class="fas fa-user-friends icon"></i>
+            <span class="name">friends</span>
+          </a>
+
+          <a href="./#videos" class="link">
+            <i class="fas fa-layer-group icon"></i>
+            <span class="name">groups</span>
+          </a>
+          <a href="./#videos" class="link">
+            <i class="fas fa-pager icon"></i>
+            <span class="name">pages</span>
+          </a>
+          <a href="./#videos" class="link">
+            <i class="fas fa-gamepad icon"></i>
+            <span class="name">games</span>
+          </a>
+          <a href="./#videos" class="link">
+            <i class="fas fa-video icon"></i>
+            <span class="name">videos</span>
+          </a>
+          <a class="link">
+            <i class="fas fa-chevron-down icon"></i>
+            <span class="name">see more</span>
+          </a>
+        </nav>
+      </div>
+    
+    </section>
+    <!-- /.leftSidebar -->
+
+    <!-- Left Sidebar Section End -->
+
+    <!-- Right Sidebar Section -->
+    <section class="rightSidebar" id="rightSidebar">
+    
+      <!-- /.row -->
+      <div class="row">
+        <h3 class="title">
+          Advertisement
+          <i class="fas fa-minus-circle icon" title="Hide"></i>
+        </h3>
+        <img src="./images/advertisement.png" alt="advertisement" class="img" />
+      </div>
+      <!-- /.row -->
+      <div class="contact">
+        <h3 class="title">
+          contacts
+          <span class="icons">
+            <i class="fas fa-video icon" title="Video call"></i>
+            <i class="fas fa-search icon" title="Search"></i>
+            <i class="fas fa-ellipsis-h icon" title="Settings"></i>
+          </span>
+        </h3>
+        <div class="boxContainer">
+          <article class="box">
+            <img src="./images/member-4.png" alt="member-4" class="img" />
+            <h4 class="name">iftekhar rahman</h4>
+          </article>
+          <article class="box">
+            <img src="./images/member-3.png" alt="member-4" class="img" />
+            <h4 class="name">limon hasan</h4>
+          </article>
+          <article class="box">
+            <img src="./images/member-2.png" alt="member-4" class="img" />
+            <h4 class="name">imam hossain</h4>
+          </article>
+        </div>
+      </div>
+      <!-- /.contact -->
+    </section>
+    <!-- Right Sidebar Section End -->
+
+    <!-- Main Content Section -->
+    <section class="main" id="main">
+      <div class="container">
+        <div class="stories">
+          <article class="story">
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/awab.jfif" alt="status-1" class="img"
+            /></a>
+            <a href="./#create-story" class="createStoryBtn">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="name">create story</a>
+          </article>
+
+          <article class="story">
+            <img src="./images/status-2.png" alt="status-2" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/status-2.png" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">kiron</a>
+          </article>
+
+          <article class="story">
+            <img src="./images/status-3.png" alt="status-3" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/status-3.png" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">rubel</a>
+          </article>
+
+          <article class="story">
+            <img src="./images/status-4.png" alt="status-4" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/status-4.png" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">hasan</a>
+          </article>
+        </div>
+        <!-- /.stories -->
+        <div class="post">
+          <div class="content">
+            <img
+              src="./images/awab.jfif"
+              alt="profile-pic"
+              class="avatar"
+            />
+            <input
+              type="text"
+              class="textBox"
+              placeholder="what's on your mind, sakil?"
+            />
+          </div>
+          <!-- /.content  -->
+          <div class="features">
+            <div class="feature">
+              <i class="fas fa-video icon" title="Live Video"></i>
+              <span class="name hidden">live video</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-photo-video icon" title="Photo/Video"></i>
+              <span class="name hidden">photo/ video</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-grin icon" title="Feeling/Activity"></i>
+              <span class="name hidden">feeling/activity</span>
+            </div>
+            <!-- /.feature -->
+          </div>
+          <!-- /.features -->
+        </div>
+        <!-- /.post -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/profile-pic.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name">
+                  Sakil Jomadder
+                  <i class="fas fa-check-circle icon"></i>
+                </a>
+                <p class="time">10 july 2021, 04:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              Please subscribe
+              <a href="./#hashtag" class="link">@Octapia </a>youtube channel,
+              facebook page and group. let us grow up. Thanks.
+              <a href="/.#hashtag" class="link">#Octapia </a>
+              <a href="/.#hashtag" class="link">#WebDesign</a>
+            </p>
+            <img src="./images/feed-image-1.png" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                sakil & 100 others
+              </article>
+
+              <div class="others">
+                <article class="box">50 comments</article>
+                <article class="box">30 share</article>
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.after  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/member-1.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Mim </a>
+                <p class="time">05 july 2021, 08:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              Please subscribe
+              <a href="./#hashtag" class="link">@Octapia </a>youtube channel,
+              facebook page and group. let us grow up. Thanks.
+              <a href="/.#hashtag" class="link">#Octapia </a>
+              <a href="/.#hashtag" class="link">#WebDesign</a>
+              <a href="/.#hashtag" class="link">#MernStack</a>
+            </p>
+            <img src="./images/feed-image-2.png" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rubel & 2K others
+              </article>
+
+              <div class="others">
+                <article class="box">10 comments</article>
+                <article class="box">5 share</article>
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.after  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/member-3.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name">
+                  Jalal khan
+                  <i class="fas fa-check-circle icon"></i>
+                </a>
+                <p class="time">10 july 2021, 04:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              Please subscribe
+              <a href="./#hashtag" class="link">@Octapia </a>youtube channel,
+              facebook page and group. let us grow up. Thanks.
+              <a href="/.#hashtag" class="link">#Octapia </a>
+              <a href="/.#hashtag" class="link">#ReactFrontend</a>
+            </p>
+            <img src="./images/feed-image-3.png" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rasel & 1K others
+              </article>
+
+              <div class="others">
+                <article class="box">11 comments</article>
+                <article class="box">51 share</article>
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.before  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/member-1.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Rasel </a>
+                <p class="time">05 july 2021, 08:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              Please subscribe
+              <a href="./#hashtag" class="link">@Octapia </a>youtube channel,
+              facebook page and group. let us grow up. Thanks.
+              <a href="/.#hashtag" class="link">#Octapia </a>
+              <a href="/.#hashtag" class="link">#WebDesign</a>
+              <a href="/.#hashtag" class="link">#NodeJS</a>
+            </p>
+            <img src="./images/feed-image-4.png" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rony & 1.5K others
+              </article>
+
+              <div class="others">
+                <article class="box">10 5comments</article>
+                <article class="box">59 share</article>
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.before  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/member-4.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Jalil </a>
+                <p class="time">05 june 2021, 08:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              Please subscribe
+              <a href="./#hashtag" class="link">@Octapia </a>youtube channel,
+              facebook page and group. let us grow up. Thanks.
+              <a href="/.#hashtag" class="link">#Octapia </a>
+              <a href="/.#hashtag" class="link">#WebDesign</a>
+              <a href="/.#hashtag" class="link">#FullStack</a>
+            </p>
+            <img src="./images/feed-image-5.png" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rubel & 200 others
+              </article>
+
+              <div class="others">
+                <article class="box">60 comments</article>
+                <article class="box">55 share</article>
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.before  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+        <div class="loadMore">
+          <i class="fas fa-spinner icon" title="Loading More..."></i>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- Main Content Section End -->
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+    <!-- Scripts End -->
+  </body>
+</html>
